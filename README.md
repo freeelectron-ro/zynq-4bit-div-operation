@@ -1,5 +1,5 @@
-  This small sketch demonstrates the division operation on Zybo board.
-  This was implemented to use only the PL, but no PS nor ARM.
+This small sketch demonstrates the division operation on Zybo board.
+It was implemented to use only the PL, but no PS nor ARM.
   The usage is simple:
    - on switches 3:0 select the upper four bits of dividend, then press&release button 3
    - on switches 3:0 select the lower four bits of dividend, then press&release button 2
@@ -9,3 +9,6 @@
 
    This is the pre-synthesised, elaborated design<br>
    <img src="images/division.png">
+
+
+Original blog post [freeelectron.ro] (https://freeelectron.ro/4bit-division-verilog-example-on-zynq-fpga/)
