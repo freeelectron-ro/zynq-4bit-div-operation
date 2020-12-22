@@ -11,4 +11,5 @@ It was implemented to use only the PL, but no PS nor ARM.
    <img src="images/division.png">
 
 
-Original blog post [freeelectron.ro] (https://freeelectron.ro/4bit-division-verilog-example-on-zynq-fpga/)
+Original blog post [freeelectron.ro](https://freeelectron.ro/4bit-division-verilog-example-on-zynq-fpga/)
+
