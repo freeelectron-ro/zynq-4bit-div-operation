@@ -27,14 +27,12 @@ module div( input  clk,
             output reg [3:0] R
           );
 
-reg [3:0] Q_pre;
-reg [3:0] R_pre;
+wire [3:0] Q_pre;
+wire [3:0] R_pre;
 
-always @*
-begin
-    Q_pre = A / B;
-    R_pre = A - Q * B;
-end
+assign Q_pre = A / B;
+assign R_pre = A - Q * B;
+
 
 always @(posedge clk)
 begin
@@ -42,4 +40,4 @@ begin
     R <= R_pre;
 end
 
-endmodule 
+endmodule

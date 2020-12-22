@@ -6,3 +6,6 @@
    - on switches 3:0 select the four bits of divisor, then press&release button 1
    - on LEDs 3:0 will be visible the four bits of the quotient
    - if you push the button 0, on the LEDs will appear the four bits of the remainder
+
+   This is the pre-synthesised, elaborated design<br>
+   <img src="images/division.png">
